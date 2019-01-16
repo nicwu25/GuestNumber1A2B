@@ -10,8 +10,12 @@
 		4E27FDBD2158BFEE000BB56B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E27FDBC2158BFEE000BB56B /* AppDelegate.swift */; };
 		4E27FDBF2158BFEE000BB56B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E27FDBE2158BFEE000BB56B /* ViewController.swift */; };
 		4E27FDC22158BFEE000BB56B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E27FDC02158BFEE000BB56B /* Main.storyboard */; };
-		4E27FDC42158BFEF000BB56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E27FDC32158BFEF000BB56B /* Assets.xcassets */; };
 		4E27FDC72158BFEF000BB56B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E27FDC52158BFEF000BB56B /* LaunchScreen.storyboard */; };
+		4E27FDD121591DE9000BB56B /* GuestNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E27FDD021591DE9000BB56B /* GuestNumberViewController.swift */; };
+		4E27FDD62159E061000BB56B /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E27FDD52159E061000BB56B /* RecordTableViewController.swift */; };
+		4E27FDD82159E3F7000BB56B /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E27FDD72159E3F7000BB56B /* RecordTableViewCell.swift */; };
+		4E27FDDA215A2AF5000BB56B /* record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E27FDD9215A2AF5000BB56B /* record.swift */; };
+		4EF23A6921EDD095001C1C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EF23A6821EDD094001C1C0B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +23,13 @@
 		4E27FDBC2158BFEE000BB56B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E27FDBE2158BFEE000BB56B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4E27FDC12158BFEE000BB56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4E27FDC32158BFEF000BB56B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E27FDC62158BFEF000BB56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E27FDC82158BFEF000BB56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E27FDD021591DE9000BB56B /* GuestNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestNumberViewController.swift; sourceTree = "<group>"; };
+		4E27FDD52159E061000BB56B /* RecordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
+		4E27FDD72159E3F7000BB56B /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
+		4E27FDD9215A2AF5000BB56B /* record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = record.swift; sourceTree = "<group>"; };
+		4EF23A6821EDD094001C1C0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		4E27FDBB2158BFEE000BB56B /* GuestNumber1A2B */ = {
 			isa = PBXGroup;
 			children = (
+				4E27FDD52159E061000BB56B /* RecordTableViewController.swift */,
+				4E27FDD021591DE9000BB56B /* GuestNumberViewController.swift */,
+				4E27FDD9215A2AF5000BB56B /* record.swift */,
 				4E27FDBC2158BFEE000BB56B /* AppDelegate.swift */,
 				4E27FDBE2158BFEE000BB56B /* ViewController.swift */,
 				4E27FDC02158BFEE000BB56B /* Main.storyboard */,
-				4E27FDC32158BFEF000BB56B /* Assets.xcassets */,
+				4E27FDD72159E3F7000BB56B /* RecordTableViewCell.swift */,
 				4E27FDC52158BFEF000BB56B /* LaunchScreen.storyboard */,
 				4E27FDC82158BFEF000BB56B /* Info.plist */,
+				4EF23A6821EDD094001C1C0B /* Assets.xcassets */,
 			);
 			path = GuestNumber1A2B;
 			sourceTree = "<group>";
@@ -123,7 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E27FDC72158BFEF000BB56B /* LaunchScreen.storyboard in Resources */,
-				4E27FDC42158BFEF000BB56B /* Assets.xcassets in Resources */,
+				4EF23A6921EDD095001C1C0B /* Assets.xcassets in Resources */,
 				4E27FDC22158BFEE000BB56B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E27FDDA215A2AF5000BB56B /* record.swift in Sources */,
+				4E27FDD62159E061000BB56B /* RecordTableViewController.swift in Sources */,
 				4E27FDBF2158BFEE000BB56B /* ViewController.swift in Sources */,
+				4E27FDD121591DE9000BB56B /* GuestNumberViewController.swift in Sources */,
+				4E27FDD82159E3F7000BB56B /* RecordTableViewCell.swift in Sources */,
 				4E27FDBD2158BFEE000BB56B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AGQ66YJG2R;
 				INFOPLIST_FILE = GuestNumber1A2B/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AGQ66YJG2R;
 				INFOPLIST_FILE = GuestNumber1A2B/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
